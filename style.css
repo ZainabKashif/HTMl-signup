@@ -1,0 +1,111 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(190, 185, 185);
+}
+.whitebox {
+    background-color: white;
+    border-radius: 16px;
+    width: 70%;
+    margin: 20px 180px;
+    padding: 10px;
+    float: left;
+}
+
+.bluebox {
+    background-color: rgb(61, 61, 241);
+    width: 300px;
+    color: white;
+    padding: 20px 30px;
+    margin: 0px 60px 10px 0;
+    border-radius: 16px;
+    float: left;
+}
+
+
+.fleeso {
+    margin-bottom: 80px;
+    margin-top: 50px;
+    letter-spacing: 4px;
+    margin-left: 20px;
+}
+
+.discover {
+    color: rgb(184, 177, 177);
+}
+#start{
+    font-size: 30px;
+    font-weight: bold;
+}
+.gridbox {
+    display: grid;
+    grid-template: auto auto / repeat(2, .2fr)!important;
+}
+
+.bluebox2 {
+    background-color: blue;
+    border-radius: 16px;
+    padding: 10px;
+    margin: 130px 2px 50px;
+}
+
+.Signup {
+    margin-top: 60px;
+}
+
+.radio {
+    border: 1px solid gray !important;
+    padding: 15px 0;
+    border-radius: 10px;
+    width: 200px;
+    text-indent: 10px;
+    margin-right: 7px;
+}
+.function{
+    border: 1px solid blue !important;
+    padding: 15px 0;
+    border-radius: 10px;
+    width: 200px;
+    text-indent: 10px;
+    margin-right: 7px;
+}
+
+button {
+    background-color: rgb(61, 61, 241);
+    padding: 17px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin:20px 0;
+    cursor: pointer;
+    width: 150px;
+}
+.inputs{
+    padding: 10px;
+    width:50%;
+    border: 1px solid gray !important;
+}
+.grey-text{
+    color: gray;
+}
+ul{
+    display:grid;
+    grid-template: auto auto / repeat(3, .05fr);
+    justify-content: center;
+}
+.dull{
+    color: gray;
+}
+
+@media(max-width:1000px){
+    
+.gridbox {
+    display: grid;
+    grid-template: auto auto / repeat(1, .2fr)!important;
+}
+.whitebox{
+    width: 100%;
+}
+}
